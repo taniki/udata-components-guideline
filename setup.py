@@ -97,6 +97,9 @@ setup(
     entry_points={
         'udata.themes': [
             'components-guideline = components_guideline'
+        ],
+        'udata.views': [
+            'components-guideline = components_guideline.views'
         ]
     },
     license='AGPL',
